@@ -13,4 +13,4 @@ carriage_return   = iif(charindex(char(13), Address) > 0, 1, 0),
 newline           = iif(charindex(char(10), Address) > 0, 1, 0),
 formfeed          = iif(charindex(char(12), Address) > 0, 1, 0),
 nonbreakingspace  = iif(charindex(char(255), Address) > 0, 1, 0)
-from Cry_Rep_Addresses;
+from Addresses;
