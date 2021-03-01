@@ -1,7 +1,7 @@
 SELECT
      [Address]
       
-  FROM [cable].[dbo].[Addresses]
+  FROM [Addresses]
 
   select distinct
 Address,
